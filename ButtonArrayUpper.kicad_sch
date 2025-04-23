@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2073f6a5-cd22-4aa1-ae96-7a817803b4c9")
+	(paper "A4")
+	(lib_symbols)
+	(text "USB Port Down in this schematic\n"
+		(exclude_from_sim no)
+		(at 91.44 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "657663f4-95d4-4d72-aa75-9fbe7583eadd")
+	)
+)

@@ -1,0 +1,8632 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9fac859b-d357-456d-b892-23f735e3ef2f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:LED_ARGB"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_ARGB"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED, anode/red/green/blue"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED RGB diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_ARGB_0_0"
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_ARGB_0_1"
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.794 8.382)
+					(end -2.794 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_ARGB_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 106.68 19.05)
+		(end 278.13 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2b16972e-bc86-430b-90cf-4e432641bf2b)
+	)
+	(rectangle
+		(start 106.68 93.98)
+		(end 278.13 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8aae232d-e9c4-40b1-8f89-cef943037258)
+	)
+	(rectangle
+		(start 22.86 19.05)
+		(end 106.68 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e03639da-c6b3-4898-8920-4522fc4222cd)
+	)
+	(rectangle
+		(start 106.68 19.05)
+		(end 278.13 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e4926d4b-87da-4f3b-91cc-31fef5021881)
+	)
+	(text "LED Set 2\n"
+		(exclude_from_sim no)
+		(at 65.278 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f0fe55f-568b-4888-8055-0a2907e35c03")
+	)
+	(text "LED Set 1"
+		(exclude_from_sim no)
+		(at 232.41 21.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a7a492b4-f06f-4531-886a-db5f7296141c")
+	)
+	(text "USB Port Down in this schematic\n"
+		(exclude_from_sim no)
+		(at 96.774 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d258c4d7-74f8-4c63-8378-c4ca3efaae7b")
+	)
+	(text "LED Set 3"
+		(exclude_from_sim no)
+		(at 234.442 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d9719f20-a7d5-4a7d-b468-74645efcf62e")
+	)
+	(junction
+		(at 101.6 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02b4a4d6-0fdb-44e4-ba83-31e1e2c95ee7")
+	)
+	(junction
+		(at 266.7 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03d1f2b6-d94b-4092-90c9-8a6ae32a3840")
+	)
+	(junction
+		(at 101.6 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16c6549a-95db-4b13-afa5-a7bfd1e9cd11")
+	)
+	(junction
+		(at 62.23 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "177f36c6-2ee9-4315-8f44-7521e1fb87f8")
+	)
+	(junction
+		(at 266.7 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25b9f8e9-f1bb-447c-a2af-45145d5e2955")
+	)
+	(junction
+		(at 246.38 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28f78f50-8d59-46c0-97fc-5ee3718cffcf")
+	)
+	(junction
+		(at 186.69 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d5b7604-681e-4d7e-9208-c997e832d63a")
+	)
+	(junction
+		(at 128.27 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3108f28a-f04b-4a2a-bea5-379a5f9888c2")
+	)
+	(junction
+		(at 226.06 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32784831-eee9-4534-b036-33f43abcc9f8")
+	)
+	(junction
+		(at 128.27 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e89c462-f02f-4e05-b21f-2a9f594f9a05")
+	)
+	(junction
+		(at 207.01 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50060347-2e06-4a76-8fd3-5c9ac6c20ff7")
+	)
+	(junction
+		(at 101.6 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53a3638d-31e6-4b17-9178-4bfb0bc45b8e")
+	)
+	(junction
+		(at 186.69 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56f1ef64-c3e1-4fe4-adf2-ec68d65d7c2e")
+	)
+	(junction
+		(at 166.37 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a21141d-7c41-4810-903a-1c502ed9469d")
+	)
+	(junction
+		(at 266.7 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bdde50d-de5e-4c7e-8e58-09a0b24e2c9a")
+	)
+	(junction
+		(at 62.23 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d377d4d-d05c-438c-8ea1-6a86318d3b2e")
+	)
+	(junction
+		(at 266.7 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7223de61-6b9b-4b2b-8043-f791321fca16")
+	)
+	(junction
+		(at 81.28 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "746c35c8-f0fb-4567-8cc2-1549a10faad4")
+	)
+	(junction
+		(at 81.28 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "781338e7-e300-4280-a083-a2784d0f39fd")
+	)
+	(junction
+		(at 246.38 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "801e6e26-019b-4e0f-8927-3bd94f5dcb25")
+	)
+	(junction
+		(at 128.27 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88df2c1a-503a-4ffb-bbe0-a595b9d40c1b")
+	)
+	(junction
+		(at 207.01 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8de8bc2a-1593-4f60-92b9-926ba5243674")
+	)
+	(junction
+		(at 147.32 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "912dd3ac-c8fb-4b2d-ad28-bcbb598469ba")
+	)
+	(junction
+		(at 147.32 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "938eef4b-7d9d-4934-8cce-c073033ad038")
+	)
+	(junction
+		(at 62.23 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9419aa61-7d4d-44b4-b826-4504406df639")
+	)
+	(junction
+		(at 226.06 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a12d5e02-1f1c-4ec7-b3f3-fc536bb4b8fa")
+	)
+	(junction
+		(at 166.37 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a30193a7-e201-4e74-84cc-a5a8d76bb238")
+	)
+	(junction
+		(at 128.27 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3ecbe9a-9f4a-4d1f-896a-7c97552f4748")
+	)
+	(junction
+		(at 246.38 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6d915aa-a5aa-4e66-aee0-44c97c923ec5")
+	)
+	(junction
+		(at 62.23 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a839058b-7800-4fa2-a418-606c998caaed")
+	)
+	(junction
+		(at 81.28 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7cc3117-004f-4195-8163-60360de02024")
+	)
+	(junction
+		(at 207.01 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbfac297-b670-40a4-9db0-0d61065290a1")
+	)
+	(junction
+		(at 101.6 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce746fe6-eab7-4176-8da2-3b6df3525aac")
+	)
+	(junction
+		(at 166.37 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d38501ac-8c4c-4f34-ab7c-07b2b0e5f206")
+	)
+	(junction
+		(at 147.32 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1757533-0d91-464a-bbdf-71227bf646ba")
+	)
+	(junction
+		(at 147.32 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e989709c-ef18-4970-a08f-89adad5cfd19")
+	)
+	(junction
+		(at 186.69 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec917411-6df7-40ad-99db-05bc291ae347")
+	)
+	(junction
+		(at 226.06 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0e41a7c-a985-4ddb-af48-b794feb71243")
+	)
+	(junction
+		(at 166.37 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f14f77ec-12bc-496e-bcfe-ce5034cddc72")
+	)
+	(junction
+		(at 246.38 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2618002-02c9-402c-87d6-733331651c97")
+	)
+	(junction
+		(at 81.28 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3040dad-ca3b-467d-b0d8-d843669bb259")
+	)
+	(junction
+		(at 186.69 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f98d04f6-52bb-4701-8ae0-091372eddd0b")
+	)
+	(junction
+		(at 207.01 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd9e8c65-be84-4753-9f7a-1ea6fade5f71")
+	)
+	(junction
+		(at 226.06 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fffbcc6f-56d3-4d42-9c7d-0151bc19644d")
+	)
+	(wire
+		(pts
+			(xy 226.06 152.4) (xy 226.06 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00711469-1c45-4113-b6cc-05b0040d7fe7")
+	)
+	(wire
+		(pts
+			(xy 166.37 87.63) (xy 186.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02305118-1d81-4cfb-b6d1-a00b3e354204")
+	)
+	(wire
+		(pts
+			(xy 226.06 114.3) (xy 226.06 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02df0e0f-b4c9-4eeb-80ee-b869e3980845")
+	)
+	(wire
+		(pts
+			(xy 226.06 162.56) (xy 246.38 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036a47c0-87bc-42e7-949c-d99bda2ff44d")
+	)
+	(wire
+		(pts
+			(xy 43.18 152.4) (xy 43.18 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f402a2-c06a-418f-a3af-03198aba4a5b")
+	)
+	(wire
+		(pts
+			(xy 266.7 50.8) (xy 267.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09763f4d-b449-48e1-873b-f8dd301c5514")
+	)
+	(wire
+		(pts
+			(xy 246.38 152.4) (xy 246.38 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097fd379-113b-4f9b-8ebf-0cdfa02c83fb")
+	)
+	(wire
+		(pts
+			(xy 207.01 124.46) (xy 226.06 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1897ae5d-42b7-400d-b3c1-7c346c7e2a50")
+	)
+	(wire
+		(pts
+			(xy 128.27 162.56) (xy 147.32 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3b01de-6740-447d-9f3c-39ada6c50ad4")
+	)
+	(wire
+		(pts
+			(xy 186.69 40.64) (xy 186.69 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a78cf8d-75fb-484c-80ed-0803ed15b8b3")
+	)
+	(wire
+		(pts
+			(xy 207.01 87.63) (xy 226.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a2ebbe-a590-4050-a540-4ed989fd1f6b")
+	)
+	(wire
+		(pts
+			(xy 128.27 114.3) (xy 128.27 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221be8b8-0d02-48c3-8227-cb4c701f1aa1")
+	)
+	(wire
+		(pts
+			(xy 147.32 87.63) (xy 166.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2331f736-1faa-45d4-add3-70482ccba915")
+	)
+	(wire
+		(pts
+			(xy 166.37 124.46) (xy 186.69 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234d3bd6-1cdf-4a99-a62a-b460790dc7d8")
+	)
+	(wire
+		(pts
+			(xy 43.18 124.46) (xy 62.23 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2514ee1e-e399-40a5-a421-f05c71082dff")
+	)
+	(wire
+		(pts
+			(xy 43.18 162.56) (xy 62.23 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263d38b8-ac5b-473a-a79d-b98e35842b99")
+	)
+	(wire
+		(pts
+			(xy 43.18 87.63) (xy 62.23 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278c13a0-dd94-482b-85b3-ee6d4998cedb")
+	)
+	(wire
+		(pts
+			(xy 186.69 77.47) (xy 186.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c8d140-9a40-4f01-9545-00ab50052805")
+	)
+	(wire
+		(pts
+			(xy 101.6 124.46) (xy 128.27 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28342576-4de2-4e6a-a232-c618eee9ba55")
+	)
+	(wire
+		(pts
+			(xy 266.7 124.46) (xy 267.97 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3dcbe7-7951-4d62-b637-44da36f77319")
+	)
+	(wire
+		(pts
+			(xy 226.06 87.63) (xy 246.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2daf8ee0-afe3-4b70-819b-f94b1199dfd5")
+	)
+	(wire
+		(pts
+			(xy 62.23 87.63) (xy 81.28 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa2f6b8-7b87-41d3-a718-cd170b9a767b")
+	)
+	(wire
+		(pts
+			(xy 147.32 162.56) (xy 166.37 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309aec5c-2e30-4c22-92b9-9ccda5fa6df0")
+	)
+	(wire
+		(pts
+			(xy 186.69 114.3) (xy 186.69 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338ba5eb-2ef6-462e-bff8-06b3b88855f3")
+	)
+	(wire
+		(pts
+			(xy 128.27 77.47) (xy 128.27 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346e5975-8856-491e-8267-94bb89c30e7a")
+	)
+	(wire
+		(pts
+			(xy 147.32 40.64) (xy 147.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3622f32a-544a-4586-abdb-23ce63ec9792")
+	)
+	(wire
+		(pts
+			(xy 81.28 77.47) (xy 81.28 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371a8f94-a7c1-4afa-a7de-38265db6c286")
+	)
+	(wire
+		(pts
+			(xy 246.38 162.56) (xy 266.7 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39628f9f-bf92-484a-9d8b-242eb85f1822")
+	)
+	(wire
+		(pts
+			(xy 128.27 152.4) (xy 128.27 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c33983e-d7dd-42c5-8596-9621841a47a6")
+	)
+	(wire
+		(pts
+			(xy 62.23 50.8) (xy 81.28 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40332653-032f-4340-985e-e85defb1161a")
+	)
+	(wire
+		(pts
+			(xy 147.32 77.47) (xy 147.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49030a09-24ca-443b-a1fb-a719cefdcdaf")
+	)
+	(wire
+		(pts
+			(xy 147.32 124.46) (xy 166.37 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aba764c-3f11-42f7-bbed-90ad52bf3671")
+	)
+	(wire
+		(pts
+			(xy 128.27 50.8) (xy 147.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2ef12a-ab29-4b87-ab14-d2bce94944bd")
+	)
+	(wire
+		(pts
+			(xy 81.28 87.63) (xy 101.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f82a8b-2e1b-41c2-b67b-deefb26cd332")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 128.27 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534d04b2-cbb9-4456-a90c-4f79ebe9df18")
+	)
+	(wire
+		(pts
+			(xy 166.37 40.64) (xy 166.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56cfb6a7-1639-46e4-ab07-8e0c241315d0")
+	)
+	(wire
+		(pts
+			(xy 246.38 40.64) (xy 246.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b08df8f-e3bd-4872-a76b-a5a68c1d6484")
+	)
+	(wire
+		(pts
+			(xy 207.01 162.56) (xy 226.06 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec74228-90c6-486e-b077-e4dc81638b4b")
+	)
+	(wire
+		(pts
+			(xy 81.28 50.8) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6b0748-1079-488d-985b-8e52ef7b8d7b")
+	)
+	(wire
+		(pts
+			(xy 207.01 50.8) (xy 226.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd85364-d623-470d-aa21-10e9ef58e69d")
+	)
+	(wire
+		(pts
+			(xy 186.69 162.56) (xy 207.01 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651254ad-2b2a-4c0b-8434-a5c0d7fe4528")
+	)
+	(wire
+		(pts
+			(xy 226.06 40.64) (xy 226.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a12a654-ce78-4afd-99e6-a9eb9164a121")
+	)
+	(wire
+		(pts
+			(xy 101.6 40.64) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4bba7f-fe72-4f5f-b3d2-012660d40e20")
+	)
+	(wire
+		(pts
+			(xy 81.28 114.3) (xy 81.28 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d52f804-a200-43e8-9ad1-e7789e9411d2")
+	)
+	(wire
+		(pts
+			(xy 266.7 152.4) (xy 266.7 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6b6845-9181-4503-abe2-fa967a792235")
+	)
+	(wire
+		(pts
+			(xy 266.7 162.56) (xy 267.97 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700e7eb4-bad3-45bb-bbbf-0b0158e69ce5")
+	)
+	(wire
+		(pts
+			(xy 166.37 162.56) (xy 186.69 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7435ec65-3698-4c51-9270-490911ef0f26")
+	)
+	(wire
+		(pts
+			(xy 246.38 77.47) (xy 246.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c1816e6-50fc-4fab-9071-97a359e72e29")
+	)
+	(wire
+		(pts
+			(xy 147.32 152.4) (xy 147.32 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b10994-ff3c-4f28-b277-0a902965ce7f")
+	)
+	(wire
+		(pts
+			(xy 186.69 50.8) (xy 207.01 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "894af3d3-1511-4cf1-9dd8-227f667fee81")
+	)
+	(wire
+		(pts
+			(xy 43.18 50.8) (xy 62.23 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898be42f-05b5-4f73-9c12-173d079f05d1")
+	)
+	(wire
+		(pts
+			(xy 266.7 77.47) (xy 266.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a235efc-7971-4a5a-9317-d7827f96e775")
+	)
+	(wire
+		(pts
+			(xy 226.06 50.8) (xy 246.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2bfed4-6300-4aa2-906b-5a11e1608017")
+	)
+	(wire
+		(pts
+			(xy 81.28 162.56) (xy 101.6 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913c0748-3224-430a-9fe9-311389b7e91a")
+	)
+	(wire
+		(pts
+			(xy 81.28 124.46) (xy 101.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93152055-2446-441f-9afc-83a396a5bfc6")
+	)
+	(wire
+		(pts
+			(xy 147.32 114.3) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9922ed08-774b-4fe1-8218-b4171d988991")
+	)
+	(wire
+		(pts
+			(xy 101.6 50.8) (xy 128.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999ebd9f-c058-4da7-b002-8c761d7276be")
+	)
+	(wire
+		(pts
+			(xy 62.23 124.46) (xy 81.28 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4afb84-8662-4f9f-9ff3-cab76641b0db")
+	)
+	(wire
+		(pts
+			(xy 246.38 50.8) (xy 266.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d46ebed-3daa-458b-8034-a502ffb155bf")
+	)
+	(wire
+		(pts
+			(xy 62.23 77.47) (xy 62.23 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dada684-f5e8-4ead-8aa5-a2de67b0dae0")
+	)
+	(wire
+		(pts
+			(xy 207.01 152.4) (xy 207.01 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e600c18-19c9-4068-899f-39cf625557a7")
+	)
+	(wire
+		(pts
+			(xy 128.27 124.46) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1946dbd-733b-433b-89ed-d2160176582e")
+	)
+	(wire
+		(pts
+			(xy 186.69 152.4) (xy 186.69 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21b80f9-5177-48f3-9a6d-5397b9bdf3c3")
+	)
+	(wire
+		(pts
+			(xy 166.37 114.3) (xy 166.37 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaecef91-e852-41ef-9103-8a941316b0ef")
+	)
+	(wire
+		(pts
+			(xy 81.28 152.4) (xy 81.28 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7480a4-1a3f-401c-a96d-8a44df20ec79")
+	)
+	(wire
+		(pts
+			(xy 166.37 77.47) (xy 166.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c4134b-d046-4832-9715-b5680e01a868")
+	)
+	(wire
+		(pts
+			(xy 266.7 40.64) (xy 266.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b379b6a1-b6b2-4716-bcbd-e5a1f68b28d4")
+	)
+	(wire
+		(pts
+			(xy 43.18 77.47) (xy 43.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b79d2dc6-b923-4732-a56a-07d7295c984b")
+	)
+	(wire
+		(pts
+			(xy 186.69 124.46) (xy 207.01 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba4bcd7a-d7cc-452b-b2b6-b45d8e237b4d")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 147.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdae9ad8-9549-4277-aa00-15ef66f977f8")
+	)
+	(wire
+		(pts
+			(xy 246.38 124.46) (xy 266.7 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44084b5-c75c-4a80-819e-2ba2f9046995")
+	)
+	(wire
+		(pts
+			(xy 101.6 152.4) (xy 101.6 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97f4f6a-b73b-4c77-8978-fa930f634073")
+	)
+	(wire
+		(pts
+			(xy 43.18 40.64) (xy 43.18 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9cebca2-d76c-45a3-bc09-2d5041815076")
+	)
+	(wire
+		(pts
+			(xy 246.38 114.3) (xy 246.38 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc41c2ae-364a-42e7-a468-8764f3da72a9")
+	)
+	(wire
+		(pts
+			(xy 81.28 40.64) (xy 81.28 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0462ec6-448d-4924-99dc-82ee53ea67bd")
+	)
+	(wire
+		(pts
+			(xy 226.06 124.46) (xy 246.38 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0cd315c-6835-45a7-b34f-60007ddf4abc")
+	)
+	(wire
+		(pts
+			(xy 166.37 152.4) (xy 166.37 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1729445-b684-4e33-aacf-8f310ff253ca")
+	)
+	(wire
+		(pts
+			(xy 101.6 77.47) (xy 101.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2fda204-01fb-4878-918c-3d89ff8cd0e4")
+	)
+	(wire
+		(pts
+			(xy 207.01 114.3) (xy 207.01 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d385116b-6611-4e0c-894e-b4ed0f02387c")
+	)
+	(wire
+		(pts
+			(xy 186.69 87.63) (xy 207.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41e2fd3-fa72-4e24-8329-79fa21fbf1be")
+	)
+	(wire
+		(pts
+			(xy 226.06 77.47) (xy 226.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d614a838-ec73-4a95-910f-0695dea43005")
+	)
+	(wire
+		(pts
+			(xy 62.23 40.64) (xy 62.23 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9be8df-d895-47a8-b8ba-f8b63529713b")
+	)
+	(wire
+		(pts
+			(xy 207.01 77.47) (xy 207.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00db4a2-2657-4b32-bea8-2d20b05f87f9")
+	)
+	(wire
+		(pts
+			(xy 62.23 152.4) (xy 62.23 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e206b31f-26af-4499-bc33-a7b946447ac0")
+	)
+	(wire
+		(pts
+			(xy 166.37 50.8) (xy 186.69 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b3ca1c-b5ca-4e46-8cca-9cc6a56808e5")
+	)
+	(wire
+		(pts
+			(xy 101.6 114.3) (xy 101.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76e747b-7f5f-4e86-b5ac-c44894fbab10")
+	)
+	(wire
+		(pts
+			(xy 128.27 40.64) (xy 128.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf7b821-e335-473b-814d-722d6ce76b5a")
+	)
+	(wire
+		(pts
+			(xy 101.6 162.56) (xy 128.27 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13c7791-80b7-43aa-a4bb-aaf882867175")
+	)
+	(wire
+		(pts
+			(xy 43.18 114.3) (xy 43.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f336513b-ba77-4467-b264-5757fa0bc60d")
+	)
+	(wire
+		(pts
+			(xy 62.23 114.3) (xy 62.23 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a3152d-c7bf-4d88-a4b7-4f773e0126b8")
+	)
+	(wire
+		(pts
+			(xy 266.7 114.3) (xy 266.7 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8cb313f-0d9c-4aab-803a-2bc0215e76ed")
+	)
+	(wire
+		(pts
+			(xy 147.32 50.8) (xy 166.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9728d12-53c2-4120-8254-489ed54d53a2")
+	)
+	(wire
+		(pts
+			(xy 207.01 40.64) (xy 207.01 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc42e917-a9d8-478a-a361-8f8a9dc578a1")
+	)
+	(wire
+		(pts
+			(xy 62.23 162.56) (xy 81.28 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd175d07-8862-4998-acdc-e102a0a567f1")
+	)
+	(wire
+		(pts
+			(xy 246.38 87.63) (xy 266.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdbacb82-6454-404b-9fa2-a347f961a39d")
+	)
+	(wire
+		(pts
+			(xy 266.7 87.63) (xy 267.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0d421f-faf9-4a7f-bfaf-95652b4214e5")
+	)
+	(global_label "s3g7"
+		(shape input)
+		(at 137.16 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07927231-ee23-4d9f-b85d-33f0a4cde683")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5787 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g5"
+		(shape input)
+		(at 91.44 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07bd3077-f41c-4c37-896c-36d5d0b44543")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.8587 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g5"
+		(shape input)
+		(at 176.53 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0862fd1b-6c74-4e22-b01f-a888ae264cb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.9487 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g3"
+		(shape input)
+		(at 215.9 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0882405b-e818-46d8-8a67-6f0e2365bd56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.3187 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r3"
+		(shape input)
+		(at 52.07 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09a21b0d-0eff-43b2-8f34-eb071f1bb5dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.8515 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3g8"
+		(shape input)
+		(at 118.11 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a36201b-7f62-4dae-baef-17f7c1e836a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.5287 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b5"
+		(shape input)
+		(at 91.44 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c11f0ce-cb1d-42fc-8614-ea8de0fbbb2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.8587 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b4"
+		(shape input)
+		(at 33.02 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0dc5795b-9dad-45a5-a653-49c0796f23a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4387 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g2"
+		(shape input)
+		(at 71.12 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e9e1f40-f0ba-4575-8575-885dfe9016aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5387 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b6"
+		(shape input)
+		(at 156.21 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "121487fb-5d43-4a16-9a79-4c0dbd87b814")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.6287 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r3"
+		(shape input)
+		(at 215.9 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15159aff-8810-46fa-a139-eaf78203c7f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6815 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3g4"
+		(shape input)
+		(at 196.85 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15b7d5bc-3c07-40cb-bbb7-2504288f1633")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.2687 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3g7"
+		(shape input)
+		(at 137.16 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "163c73a9-e7ca-47a1-a9a1-52f2a8103e75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5787 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b6"
+		(shape input)
+		(at 71.12 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1baf3731-c82c-45df-8dd6-e5a76822666e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5387 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b5"
+		(shape input)
+		(at 176.53 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d9b6e66-3bce-46cd-bfdc-4e4cf6b3cd84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.9487 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3g4"
+		(shape input)
+		(at 196.85 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f64bb32-84f2-49c2-adc4-5653b3100d73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.2687 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r1"
+		(shape input)
+		(at 256.54 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2294cd52-9467-4ea7-ad32-84a3c46e1f73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.3215 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3g8"
+		(shape input)
+		(at 118.11 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25317be7-85b9-49b4-8600-27203ce0cbc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.5287 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r6"
+		(shape input)
+		(at 156.21 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28d5a5d7-0443-4b50-b331-116c2c912233")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.9915 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r7"
+		(shape input)
+		(at 137.16 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "296a39e3-78e1-4961-9d43-10152a14cd28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.9415 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r2"
+		(shape input)
+		(at 236.22 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2be572e3-4cf1-4ff7-a983-ab4bc57885d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.0015 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS6"
+		(shape input)
+		(at 267.97 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c13eadf-dfa0-44ab-9810-d345abf4fd36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.6442 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r1"
+		(shape input)
+		(at 256.54 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c1ffb7e-0f6f-43ba-a09f-3d33795baa74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.3215 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r8"
+		(shape input)
+		(at 118.11 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cd26d42-6e69-4c02-801c-55477e479c6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.8915 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3g3"
+		(shape input)
+		(at 215.9 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d152149-6d83-44e7-925d-09a4f5f56c82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.3187 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b5"
+		(shape input)
+		(at 176.53 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e37b100-102d-42ef-825c-da571f398e04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.9487 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b1"
+		(shape input)
+		(at 256.54 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e436026-287f-4cdf-a988-8b5c3d3d42d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.9587 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS2"
+		(shape input)
+		(at 267.97 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ef0fd79-a8c5-4248-a8c0-3139b9b3140c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.6442 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b3"
+		(shape input)
+		(at 215.9 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33263a25-de9a-4b9b-ba97-bf9faca5a547")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.3187 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3g1"
+		(shape input)
+		(at 256.54 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "336f7784-9983-4dae-8e45-c53de1d84a40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.9587 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b8"
+		(shape input)
+		(at 33.02 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33ec63e7-588a-4455-a862-6518fadaebea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4387 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g5"
+		(shape input)
+		(at 176.53 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34bdb95f-3482-4565-848b-dc61df22b9ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.9487 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r6"
+		(shape input)
+		(at 71.12 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34cb3c4d-d6cd-4e50-94e5-26add7ab9623")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.9015 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r7"
+		(shape input)
+		(at 137.16 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35929bcd-1b02-4252-8384-3ec7c55a72b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.9415 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r7"
+		(shape input)
+		(at 137.16 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3736f591-18aa-45d5-b641-1be6aa9c9504")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.9415 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b1"
+		(shape input)
+		(at 256.54 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3791c9ac-5ef5-4f66-b61a-a1b5f1812385")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.9587 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r5"
+		(shape input)
+		(at 176.53 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37a91896-cc52-4e80-899b-fbda1289a8e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.3115 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r2"
+		(shape input)
+		(at 71.12 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39a1c458-9aea-49d9-bffc-81bfd531b825")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.9015 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b6"
+		(shape input)
+		(at 156.21 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b0271c1-90b7-486e-8b32-202f58943e7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.6287 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r4"
+		(shape input)
+		(at 33.02 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b55b233-02c5-43c2-9376-911eaf54e321")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.8015 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r6"
+		(shape input)
+		(at 156.21 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3da686ed-c32b-43e5-ba90-42dd657f458a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.9915 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r7"
+		(shape input)
+		(at 52.07 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f27156b-2f13-4920-b333-72f24dadade9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.8515 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g2"
+		(shape input)
+		(at 236.22 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43c1ea52-bcd6-4eef-ae7b-24e51d94cf7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6387 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b4"
+		(shape input)
+		(at 196.85 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46351b9e-e719-4e65-899a-f58b97e5e98e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.2687 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g3"
+		(shape input)
+		(at 52.07 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4682788c-4477-49d2-b356-b083361a8ee4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.4887 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r6"
+		(shape input)
+		(at 71.12 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46ce500e-68a9-41f8-bfa3-f903e5cb2352")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.9015 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b1"
+		(shape input)
+		(at 256.54 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48f6651b-2bd2-499b-8931-7026101f016b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.9587 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g6"
+		(shape input)
+		(at 71.12 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49726ea5-118e-4ca4-854e-85f913dbeedb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5387 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS1"
+		(shape input)
+		(at 267.97 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c819719-7f8e-41b7-afc5-1a0e5b0538c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.6442 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r4"
+		(shape input)
+		(at 196.85 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cf58f58-c152-4cb6-89af-850d88d672de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.6315 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b2"
+		(shape input)
+		(at 71.12 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f74c859-eb23-45dc-b31e-167689d08c23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5387 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r2"
+		(shape input)
+		(at 236.22 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51c7980e-9b91-4994-b412-c586c0fddc65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.0015 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g7"
+		(shape input)
+		(at 137.16 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "545c65c8-08f8-42df-984a-c4c8e4087b04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5787 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3g3"
+		(shape input)
+		(at 215.9 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58c6115d-7ccd-46e3-903d-397d9e9a86c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.3187 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b1"
+		(shape input)
+		(at 91.44 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59156ac3-dc01-4ca9-9a84-9518ca61b858")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.8587 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r1"
+		(shape input)
+		(at 91.44 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ab64c92-4cec-4263-8776-bc2d1a2af328")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.2215 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g8"
+		(shape input)
+		(at 118.11 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5adfbff6-9684-45b8-9869-2806d6efa609")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.5287 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g8"
+		(shape input)
+		(at 33.02 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f6ef177-6ea3-4dc8-ade6-363427d2aaec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4387 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r7"
+		(shape input)
+		(at 52.07 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "614fd9d8-c21c-4777-adb6-ddd3a2a2c8b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.8515 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r2"
+		(shape input)
+		(at 236.22 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "657fc310-f2d5-4fdb-be71-6cdebed0de17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.0015 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b1"
+		(shape input)
+		(at 256.54 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67a6e15b-85de-47ad-90aa-ce73d3b0e3df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.9587 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r2"
+		(shape input)
+		(at 71.12 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67da3af2-d5f4-4b52-8676-165d4219682b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.9015 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r8"
+		(shape input)
+		(at 118.11 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a1d898c-049e-41f0-a262-833cfa4e2d95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.8915 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r2"
+		(shape input)
+		(at 236.22 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a3c78c7-4534-480e-92a3-4636e944f4f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.0015 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r5"
+		(shape input)
+		(at 91.44 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b8e3d17-febd-40ce-9ed3-11ae9b43efc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.2215 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g4"
+		(shape input)
+		(at 33.02 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b90595d-2be5-41c1-988a-60d9f9e6a6db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4387 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b3"
+		(shape input)
+		(at 52.07 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e56df3f-e228-4ed0-8000-5f11ac546ece")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.4887 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3g1"
+		(shape input)
+		(at 256.54 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70f57ca4-3cb3-458a-ae2d-7b66df721ce7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.9587 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g8"
+		(shape input)
+		(at 33.02 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72dc2917-9566-49f7-82b4-1473336e4e09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4387 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b2"
+		(shape input)
+		(at 236.22 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72f6a99f-c972-449a-adaa-e3c2d3a106cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6387 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r7"
+		(shape input)
+		(at 137.16 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76a9626e-eca7-460b-878a-2ba4de3f707e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.9415 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r3"
+		(shape input)
+		(at 215.9 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77ad8e14-04c7-4014-a503-ae2e58a7ccb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6815 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g6"
+		(shape input)
+		(at 156.21 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78437cfb-3354-49e2-b90b-e777cc817a2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.6287 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b2"
+		(shape input)
+		(at 236.22 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c7e9fb7-f7cd-4507-baa4-8480300bf5ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6387 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b8"
+		(shape input)
+		(at 118.11 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e0a841f-bbe4-4414-bfb5-27c2f9dc4af9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.5287 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g6"
+		(shape input)
+		(at 156.21 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "805982b0-cd63-46c6-b905-fd3997618421")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.6287 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3g5"
+		(shape input)
+		(at 176.53 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81914e96-3f11-4b88-88e8-df9f339bb2b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.9487 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g1"
+		(shape input)
+		(at 256.54 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "843e15ec-9cc4-4107-b0a1-04919169b011")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.9587 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g1"
+		(shape input)
+		(at 91.44 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "886a96f2-4a2f-46e2-bfce-10728970aba9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.8587 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r6"
+		(shape input)
+		(at 156.21 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8963cc68-9520-4848-8ac1-b6a42c58f3f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.9915 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g2"
+		(shape input)
+		(at 71.12 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a28c262-e82a-4023-9143-dfbdd02d58fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5387 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b8"
+		(shape input)
+		(at 118.11 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b3aa076-6221-4629-89ad-734fea7af66b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.5287 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b3"
+		(shape input)
+		(at 215.9 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "913b88a8-2467-4d8b-a728-4f08d72b4d8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.3187 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g3"
+		(shape input)
+		(at 52.07 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "913fc2ea-7985-463e-be09-5edaa36b000a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.4887 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3g5"
+		(shape input)
+		(at 176.53 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91edf27e-bf3d-4b45-b15b-2341d04ae1ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.9487 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3g6"
+		(shape input)
+		(at 156.21 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9484ee2d-96fe-42f2-9119-719e1c62a8ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.6287 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b8"
+		(shape input)
+		(at 118.11 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94b04dca-c690-4d88-8a1f-2562ae64e3ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.5287 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b3"
+		(shape input)
+		(at 52.07 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95cc8abb-7c95-4691-801c-e60e91454e9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.4887 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r4"
+		(shape input)
+		(at 196.85 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97b115b7-bb19-44f9-bd3b-ecf6a944dba8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.6315 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b5"
+		(shape input)
+		(at 91.44 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "993b5194-4dd6-41cc-921c-d1c87f1a26e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.8587 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r4"
+		(shape input)
+		(at 33.02 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9be41f2d-4e61-4126-bed2-4263272168c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.8015 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r3"
+		(shape input)
+		(at 215.9 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f36ad40-89af-4584-a41f-4534aa58bd72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6815 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g5"
+		(shape input)
+		(at 91.44 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a00e7e31-64d6-41c3-8604-e16e760ab386")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.8587 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r5"
+		(shape input)
+		(at 176.53 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a67305d8-e1a2-402a-94c7-3ec25a2468c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.3115 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b7"
+		(shape input)
+		(at 137.16 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab127d5d-d81a-4be0-ba55-ea338008a0d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5787 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b2"
+		(shape input)
+		(at 236.22 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad59f14e-6ab9-4778-aede-38e01b0f2a52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6387 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS5"
+		(shape input)
+		(at 267.97 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aecf407b-0f87-4100-9b5e-6a8853ef4be7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.6442 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g6"
+		(shape input)
+		(at 71.12 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af58c870-6544-47c9-95a7-22d5b65f61b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5387 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b3"
+		(shape input)
+		(at 215.9 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b292c1c9-f2f9-4fc4-aae6-0a657fd0dece")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.3187 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b4"
+		(shape input)
+		(at 33.02 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4daacc8-879d-4714-8ef1-4c3e94185de5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4387 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g3"
+		(shape input)
+		(at 215.9 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b62595e2-1f8d-4c5f-9d0e-07de35bc8302")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.3187 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g7"
+		(shape input)
+		(at 137.16 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6cf63b6-4727-459d-98b7-eb39696473ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5787 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b4"
+		(shape input)
+		(at 196.85 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7d33333-1bc7-48c5-951e-50137fa35915")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.2687 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g2"
+		(shape input)
+		(at 236.22 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b90f44b7-724e-46ca-a895-edc9fbe997d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6387 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r5"
+		(shape input)
+		(at 91.44 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba4fcd31-546a-46c8-b3d9-2ceee26f142c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.2215 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r8"
+		(shape input)
+		(at 118.11 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bae9ef19-00b0-45c0-a567-32c92cd5e00b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.8915 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b6"
+		(shape input)
+		(at 156.21 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb127835-c9b4-40be-9e2a-3ed57ab2c622")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.6287 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r4"
+		(shape input)
+		(at 196.85 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc80a3c3-a1f8-41eb-ae43-d3cf5794ec25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.6315 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b3"
+		(shape input)
+		(at 215.9 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd946476-d46b-4ef9-b9f8-fdc41c3c03ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.3187 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r8"
+		(shape input)
+		(at 33.02 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bde94d45-927a-4c6a-ae75-e96699bd675a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.8015 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b7"
+		(shape input)
+		(at 137.16 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bea4a7e8-4f4f-40ad-8faf-528dba515db1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5787 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b6"
+		(shape input)
+		(at 156.21 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c184efd9-3ce7-4d14-9cc3-012158a04b94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.6287 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b8"
+		(shape input)
+		(at 33.02 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c33dd390-e689-4af0-ad2a-13ba7f07c822")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4387 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b7"
+		(shape input)
+		(at 52.07 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c447cf52-a05e-4186-a269-e40164cd0550")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.4887 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g8"
+		(shape input)
+		(at 118.11 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c870065d-dea1-4f46-8b19-d6563a051885")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.5287 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r3"
+		(shape input)
+		(at 215.9 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ccfb4b48-6087-45eb-807b-960d38e0b5d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6815 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r1"
+		(shape input)
+		(at 256.54 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd4cebc4-b606-40c4-acbd-a4a0b07d2747")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.3215 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b8"
+		(shape input)
+		(at 118.11 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdc36a61-a874-47ef-8ab6-f195e83f7afc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.5287 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r1"
+		(shape input)
+		(at 91.44 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0938f90-009c-4d71-bf38-25bdd7279696")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.2215 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b5"
+		(shape input)
+		(at 176.53 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1aa80af-2e96-44ab-b129-c2dd4b4c190c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.9487 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3g6"
+		(shape input)
+		(at 156.21 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d21ba95e-656b-444e-8c46-f01c210eb3db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.6287 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r8"
+		(shape input)
+		(at 33.02 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5044ff5-72c6-4680-9276-53476446d4d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.8015 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b1"
+		(shape input)
+		(at 91.44 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6d99909-ead1-42a8-b190-12c89e6745a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.8587 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r1"
+		(shape input)
+		(at 256.54 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d797a53d-e604-4a4b-afeb-757aad0bd71c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.3215 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b4"
+		(shape input)
+		(at 196.85 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dba156c2-6ce7-4bee-805d-28b329bf2ff1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.2687 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g1"
+		(shape input)
+		(at 91.44 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbdaed8f-36c2-4287-9cf4-ead176cc2bc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.8587 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b7"
+		(shape input)
+		(at 137.16 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd5a9cfb-f324-484d-afc6-986637ba52d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5787 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r5"
+		(shape input)
+		(at 176.53 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df4932b2-9f88-436f-8384-0b4f4d37d47d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.3115 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r4"
+		(shape input)
+		(at 196.85 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e027c96e-2671-48be-9cd9-a681844ae425")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.6315 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3g2"
+		(shape input)
+		(at 236.22 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e13b6c05-1496-4b72-8448-e88260c1ff68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6387 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g4"
+		(shape input)
+		(at 196.85 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1949ae0-8e1f-4773-bd12-ceab84e5f2db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.2687 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2r3"
+		(shape input)
+		(at 52.07 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2cf917b-8c00-4486-a9f1-8b4920aafa0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.8515 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g4"
+		(shape input)
+		(at 33.02 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6996fab-f399-47d2-8a2b-7d1bb8d0dc4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4387 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g4"
+		(shape input)
+		(at 196.85 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb92c55b-c92b-49cf-acb6-046f26eff4ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.2687 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r5"
+		(shape input)
+		(at 176.53 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec24ef8f-7307-4db7-8ac8-184872689b9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.3115 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1r8"
+		(shape input)
+		(at 118.11 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed95cf2b-d195-4b7a-a201-72747a56107f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.8915 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3r6"
+		(shape input)
+		(at 156.21 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee729341-51cb-416b-96eb-ef1aafa476b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.9915 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b4"
+		(shape input)
+		(at 196.85 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efcf619b-eb2e-4d04-bd7a-95c4cf8849c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.2687 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b2"
+		(shape input)
+		(at 236.22 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "effaafd4-05c6-41e5-8a41-90c04dec3f2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6387 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b2"
+		(shape input)
+		(at 71.12 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f060f3fe-479d-4ba5-80a3-91fdb576050b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5387 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g7"
+		(shape input)
+		(at 52.07 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1c1b4bf-cb75-4fa8-be22-df36df1b33ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.4887 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1b5"
+		(shape input)
+		(at 176.53 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4f758f4-c86b-44a1-9eed-6d6e8cc0508e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.9487 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3b7"
+		(shape input)
+		(at 137.16 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f53d6ad4-60f7-4541-a07e-f641f8023e30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5787 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b7"
+		(shape input)
+		(at 52.07 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6da05d5-251a-4b77-bad5-b0a6465a09c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.4887 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s1g1"
+		(shape input)
+		(at 256.54 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f71976ac-8f36-44f7-942a-365f0d8edf62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.9587 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2g7"
+		(shape input)
+		(at 52.07 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb60f4c3-fd9a-4eea-96a4-1e6719c498ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.4887 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s3g2"
+		(shape input)
+		(at 236.22 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc732d25-b2c1-4239-a155-df14450c2d13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6387 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "s2b6"
+		(shape input)
+		(at 71.12 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fddac9ea-f9a8-4f6d-81e4-bc34e5109d9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5387 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 201.93 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fd1a734-493c-4e8e-a5ea-993980bc6861")
+		(property "Reference" "D84"
+			(at 201.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 201.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 201.93 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d8c36f64-fe1b-43d0-8c35-09e58c7aa0ff")
+		)
+		(pin "2"
+			(uuid "d0f53c9b-3d8f-496b-b845-f61ca7b6944d")
+		)
+		(pin "4"
+			(uuid "1b00daad-08af-4726-8e09-94423d6a0dc8")
+		)
+		(pin "1"
+			(uuid "37cbcc8e-00a5-4621-8ce6-658b97f4bfb2")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 57.15 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1177300c-87ac-45ec-9b49-1a25ad951cdb")
+		(property "Reference" "D56"
+			(at 57.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 57.15 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 57.15 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 57.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5d334cea-2888-4c4f-be8d-19292fdf398b")
+		)
+		(pin "3"
+			(uuid "1c88228b-7e38-4755-9fee-2cedb729dc1b")
+		)
+		(pin "2"
+			(uuid "7c70f169-ed88-46cf-b9f9-4c5e87741c19")
+		)
+		(pin "1"
+			(uuid "4c11edd4-319d-4a31-85dd-8e19344bcc8b")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 181.61 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "134034ce-e8bb-49ad-af95-e0a886e077c8")
+		(property "Reference" "D80"
+			(at 181.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 181.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 181.61 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 181.61 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "021022fc-0ed9-40ab-bdf0-5a3c84a52c36")
+		)
+		(pin "1"
+			(uuid "f4979a23-d682-48fe-a40b-5d47a5afbc7c")
+		)
+		(pin "2"
+			(uuid "5c46fd07-d34f-4dc6-936a-879eff67dee7")
+		)
+		(pin "3"
+			(uuid "6ca89fc8-74a5-4d78-b991-928bf5a6ea0d")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 261.62 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17aa9431-b740-4d6a-b326-116efb588f91")
+		(property "Reference" "D96"
+			(at 261.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 261.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 261.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 261.62 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "171db9e0-7f2a-4b10-b8dd-c30c7a0cb40d")
+		)
+		(pin "1"
+			(uuid "507619ca-22f5-4bd2-800a-09a070209130")
+		)
+		(pin "2"
+			(uuid "72a8b611-224c-4b05-9124-3c1201c5c7d9")
+		)
+		(pin "3"
+			(uuid "c91f195d-e5cb-41d7-badf-144e4fe4c149")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 76.2 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aacd794-f429-480c-9a49-42b98c8b59ad")
+		(property "Reference" "D58"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 76.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "844ba40c-6981-4c83-9cce-8d3fd46f9124")
+		)
+		(pin "3"
+			(uuid "8686e16e-529b-45a7-b792-2d2e3ccde617")
+		)
+		(pin "2"
+			(uuid "33f91eff-86e6-4e29-8949-996c17fdb784")
+		)
+		(pin "4"
+			(uuid "f5802073-8fd7-4825-8fec-af0304c05c2c")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 261.62 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f26dec6-3b41-418b-90b2-50309fbfafda")
+		(property "Reference" "D93"
+			(at 261.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 261.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 261.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 261.62 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "45e13196-d59d-4293-827f-d8e197bf406c")
+		)
+		(pin "1"
+			(uuid "4553b795-d125-4d5d-9502-c774cd3dcc5a")
+		)
+		(pin "2"
+			(uuid "61acba7d-b875-4516-9b7c-24148651b1c8")
+		)
+		(pin "3"
+			(uuid "a5d56800-70f4-48dc-a754-d24b25ac65d7")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 96.52 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f52dc36-4f53-404f-a5ca-94ffca2727b4")
+		(property "Reference" "D63"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 96.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 96.52 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d68bdf6a-b52c-465d-a632-0ec6dd7f33f6")
+		)
+		(pin "1"
+			(uuid "28301aaf-198a-4a2d-8563-1dc31d3ecf89")
+		)
+		(pin "2"
+			(uuid "46e51add-2e2f-435e-814c-3474e034b8e4")
+		)
+		(pin "3"
+			(uuid "d262ccef-211a-44bc-88fd-22334a2fcf21")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 181.61 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20afab64-f803-4596-b209-9e6fa29c6b4a")
+		(property "Reference" "D77"
+			(at 181.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 181.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 181.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4da17a28-2e02-4ab2-bc2d-6a4601477788")
+		)
+		(pin "1"
+			(uuid "d1d05e5b-e03a-468d-961c-284471608258")
+		)
+		(pin "2"
+			(uuid "18dd63d6-9c20-4666-b08d-e49c0e677c2e")
+		)
+		(pin "3"
+			(uuid "30f2bf17-d19a-40b4-9cdd-78a839e4cce0")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 161.29 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a1c6152-8070-43b7-a631-c00788aba035")
+		(property "Reference" "D74"
+			(at 161.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f68e0047-74e8-4c79-befd-2371f56bda00")
+		)
+		(pin "3"
+			(uuid "a79976f6-95e9-49f7-a3c8-e63f592c01c3")
+		)
+		(pin "2"
+			(uuid "1318db50-c6e5-4fde-b988-02f05cadd661")
+		)
+		(pin "4"
+			(uuid "6e45ecf8-41d0-4f6d-a824-fbcd8f1b9e4b")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 241.3 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33caf0d9-6c63-4b45-b5de-50d76c80c713")
+		(property "Reference" "D90"
+			(at 241.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 241.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 241.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7f85f8d-089e-41b5-a824-4385f03a79fb")
+		)
+		(pin "3"
+			(uuid "906a37a1-818b-45aa-a02c-103b1768cc7b")
+		)
+		(pin "2"
+			(uuid "bc197472-870c-4424-9429-42a5371b4bca")
+		)
+		(pin "4"
+			(uuid "a0f30d93-5ee8-4401-826b-05d472c45629")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 38.1 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44f576e4-6c40-4dfe-85f1-ea55a4757baf")
+		(property "Reference" "D51"
+			(at 38.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 38.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "78ec5cca-6b7f-411d-92f3-15d9fec092cf")
+		)
+		(pin "2"
+			(uuid "e0dc1409-0ea2-473a-9082-b93231ffbc5e")
+		)
+		(pin "4"
+			(uuid "a8257020-b733-415a-9bcc-63a06ce904dd")
+		)
+		(pin "1"
+			(uuid "02e3d76a-41c0-42ea-b34b-c35dc803e6ff")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 220.98 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c661264-1be7-4362-bd4f-d0737bd4815a")
+		(property "Reference" "D86"
+			(at 220.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 220.98 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 220.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b797859d-f5c4-4bec-b166-b0710be6d907")
+		)
+		(pin "3"
+			(uuid "4a183caf-58ef-4d76-ba45-7f3d2c89f727")
+		)
+		(pin "2"
+			(uuid "4929cba4-627b-4d5f-b539-db09ab0ccf62")
+		)
+		(pin "1"
+			(uuid "a100083d-e5c2-4d55-b408-e778ca356ba4")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 76.2 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e7f8031-ef52-4864-9671-d5cd16a2e6d4")
+		(property "Reference" "D59"
+			(at 76.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 76.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 76.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b93f5b6d-8e61-4635-acc1-27115cdd7203")
+		)
+		(pin "3"
+			(uuid "763c08ae-c48a-45c6-9738-9acf8597d7e8")
+		)
+		(pin "2"
+			(uuid "01115e01-c1d6-49c9-826a-f003910b356c")
+		)
+		(pin "4"
+			(uuid "a1fb6621-f26b-4c45-852a-0abe51d89380")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 123.19 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "509b9bd9-17a0-4e67-a5f1-f84033095784")
+		(property "Reference" "D68"
+			(at 123.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 123.19 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 123.19 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 123.19 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9c086f6d-3ffe-4784-aea8-a8006549f3e3")
+		)
+		(pin "2"
+			(uuid "33eac162-dba6-42a7-ab34-d23558192eea")
+		)
+		(pin "4"
+			(uuid "65c5f8cb-0d7b-4dd6-b0b7-45b653f122e8")
+		)
+		(pin "1"
+			(uuid "d07e6c4a-3860-495d-8014-8242419ba8a9")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 142.24 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5377e70f-e200-492a-a1dd-03618c90996a")
+		(property "Reference" "D69"
+			(at 142.24 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 142.24 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 142.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 142.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2221c22b-7c91-4b09-820a-e7aa60f23d4b")
+		)
+		(pin "3"
+			(uuid "061b312c-cfd3-4c82-bd02-068404b83a7f")
+		)
+		(pin "2"
+			(uuid "d71ee482-32e6-4a43-be80-100da0b2f174")
+		)
+		(pin "1"
+			(uuid "d78bdf99-d3d8-47f6-a179-51f6c616e19b")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 96.52 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56cc8828-2f0f-4619-85a0-8d1d1fcb7a3f")
+		(property "Reference" "D64"
+			(at 96.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 96.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 96.52 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "63e2f667-9cc1-46a1-8317-dceb6775a819")
+		)
+		(pin "1"
+			(uuid "c9ccd2af-d1e5-4af9-a4d3-4b931d728636")
+		)
+		(pin "2"
+			(uuid "4d46b704-6964-4420-9487-4a087f3c08df")
+		)
+		(pin "3"
+			(uuid "24dc1813-404f-4edb-a363-cc2264ff991f")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 142.24 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d278cf2-5892-4c82-9e8a-0932b9a23526")
+		(property "Reference" "D72"
+			(at 142.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 142.24 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 142.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 142.24 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ae51a836-1ae4-41f0-86c1-69d27f2cba3d")
+		)
+		(pin "3"
+			(uuid "1f5e589a-f483-402e-b178-fc5a91934ee1")
+		)
+		(pin "2"
+			(uuid "1f8245cd-6055-4512-9f96-659b58000343")
+		)
+		(pin "1"
+			(uuid "5f2804bc-4200-4a25-b826-9097f70aee92")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 38.1 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eea2b54-4315-4354-a9b5-917dea019017")
+		(property "Reference" "D50"
+			(at 38.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 38.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 38.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 38.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a66fe18f-c2c7-4c90-b25f-9c6fc4782f91")
+		)
+		(pin "2"
+			(uuid "44e50e73-68b0-4743-bec7-c495a10761f4")
+		)
+		(pin "4"
+			(uuid "8def2111-b207-44a3-b56c-d17a53bf5596")
+		)
+		(pin "1"
+			(uuid "a13cf847-0492-4bde-ab66-3bed5077c074")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 220.98 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62387b9e-f7ec-49dd-9ce7-0e536b37182f")
+		(property "Reference" "D87"
+			(at 220.98 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 220.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 220.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 220.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8500153e-bfa6-45e9-b3f9-5b397146ac65")
+		)
+		(pin "3"
+			(uuid "462a0977-b057-437f-a6ee-166c35cea1c2")
+		)
+		(pin "2"
+			(uuid "e2c378c5-1fcc-4294-92da-0df2321675bf")
+		)
+		(pin "1"
+			(uuid "945afd70-20d2-45a5-9154-f13d6c052c7b")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 241.3 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67dcc42f-5c5f-471e-bc2f-ad30cc52c6d0")
+		(property "Reference" "D89"
+			(at 241.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 241.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 241.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f59ad498-c820-4aec-8698-c9f51d66123a")
+		)
+		(pin "3"
+			(uuid "93bb455e-37ae-4c2f-b214-54594f8938f0")
+		)
+		(pin "2"
+			(uuid "1e5e4cdd-e87a-4558-a5bb-bc188200acf7")
+		)
+		(pin "4"
+			(uuid "397924ee-5ac7-447a-b65d-2e13e4218de9")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 181.61 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bd88da7-68aa-4e00-a508-d0bdcbee2a0a")
+		(property "Reference" "D79"
+			(at 181.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 181.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 181.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b45ae2df-e42f-45fd-a498-34f12c3f8f95")
+		)
+		(pin "1"
+			(uuid "1d39c279-d6f6-44e6-8bea-08546e92ba3d")
+		)
+		(pin "2"
+			(uuid "10aaa2c4-26fc-4277-873b-7a39f26eb4da")
+		)
+		(pin "3"
+			(uuid "a093b42b-a5e5-41bf-92d6-b73de7e0616b")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 161.29 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fbcb273-2902-48fa-8927-e7aa68be8e16")
+		(property "Reference" "D76"
+			(at 161.29 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 161.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 161.29 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abfcd6dc-ef18-494c-b101-e27537fb9042")
+		)
+		(pin "3"
+			(uuid "09dc83a0-bcd3-4ab3-a441-cfccff2abd24")
+		)
+		(pin "2"
+			(uuid "69af04b6-833a-46f1-8b48-cde84f830ad0")
+		)
+		(pin "4"
+			(uuid "fb9bde4f-56b5-4331-8bb0-c96d946addd2")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 142.24 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7297a49c-f03b-494f-a8de-5059f785d6f9")
+		(property "Reference" "D71"
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "27ad00f0-2ce8-4591-b786-fc7b101da97f")
+		)
+		(pin "3"
+			(uuid "b43f6f47-e579-4801-a380-b78ea4b30302")
+		)
+		(pin "2"
+			(uuid "57190ab4-fed9-4b4d-bcb3-9182f2ab8fd6")
+		)
+		(pin "1"
+			(uuid "fdb4feb0-face-45e0-8bb3-85a008307cc5")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 261.62 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73926be8-092a-42ba-8b51-f5f7817a74a2")
+		(property "Reference" "D95"
+			(at 261.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 261.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 261.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 261.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "40d082ad-90a1-49a5-9665-0f2505330911")
+		)
+		(pin "1"
+			(uuid "3f413f39-e129-4b5b-aae3-9d10bd8dca4d")
+		)
+		(pin "2"
+			(uuid "f61878df-356a-499a-9f72-0c9dbab92f17")
+		)
+		(pin "3"
+			(uuid "e5c669e2-055a-42d9-be23-f33a9588ddaf")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 241.3 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "745afc16-04c7-4370-a60e-524f1af40788")
+		(property "Reference" "D92"
+			(at 241.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 241.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 241.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 241.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d820a4f-efd5-4026-9fbd-1de2d69417f5")
+		)
+		(pin "3"
+			(uuid "6433c1bc-5927-45ac-9301-b02fe2645d51")
+		)
+		(pin "2"
+			(uuid "af1ea2ff-2b5d-4f6c-8816-d59441c2a03a")
+		)
+		(pin "4"
+			(uuid "e6867515-79b6-4600-9c37-0b2ce996090c")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 123.19 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88e41105-bb37-42d1-9514-ad99ba0fab3c")
+		(property "Reference" "D65"
+			(at 123.19 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 123.19 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 123.19 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 123.19 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "53311afa-2008-4c19-a416-7916642a1850")
+		)
+		(pin "2"
+			(uuid "32f57587-55cd-4557-9c6b-be0069fd4303")
+		)
+		(pin "4"
+			(uuid "e37bea5c-8e26-4266-88a2-178bd3bd60a6")
+		)
+		(pin "1"
+			(uuid "12c11e91-da81-4cb3-af20-63a951f622da")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 96.52 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a9f4bca-a04d-4889-8f09-4bb02c0527de")
+		(property "Reference" "D62"
+			(at 96.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 96.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 96.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 96.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "00863049-3a0d-48c2-980b-bca4410d7809")
+		)
+		(pin "1"
+			(uuid "bf1ad376-7716-4c3e-8ccb-dbbae7724828")
+		)
+		(pin "2"
+			(uuid "493ee472-0d9d-4d64-9fa3-0d2623d3ab94")
+		)
+		(pin "3"
+			(uuid "5a45e4ef-9d47-43d5-ac88-aa30cbaf84dd")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 57.15 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9287177e-6269-42a1-85c7-48e3d58ad6cd")
+		(property "Reference" "D54"
+			(at 57.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 57.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d03f3729-4a9f-4800-8830-6a50ebf391f3")
+		)
+		(pin "3"
+			(uuid "fccf40b4-ff02-498d-882a-182c6d7d6101")
+		)
+		(pin "2"
+			(uuid "ba25b368-3ef2-41e7-8411-165dca0eec89")
+		)
+		(pin "1"
+			(uuid "12e89b48-6397-4783-aafb-6f8fa599b386")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 220.98 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "933cf07e-da34-478a-bf01-9581a9f1271f")
+		(property "Reference" "D88"
+			(at 220.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 220.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 220.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "014aa4ce-5890-4071-9449-3576f75e64b4")
+		)
+		(pin "3"
+			(uuid "767655dd-284f-4acc-aca6-13855cac21fa")
+		)
+		(pin "2"
+			(uuid "314e0938-ad54-40ac-b45f-09325b37912c")
+		)
+		(pin "1"
+			(uuid "77570b6d-760b-4327-b851-53f283487e76")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 57.15 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cc902a0-f990-466c-9a9b-e47ae3e0a720")
+		(property "Reference" "D55"
+			(at 57.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 57.15 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 57.15 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "871ec168-4071-4a79-806c-900fb9111229")
+		)
+		(pin "3"
+			(uuid "f0dc0226-f619-4b7d-b4d2-0eb4f18ecf21")
+		)
+		(pin "2"
+			(uuid "f5c264cb-05f1-49c7-a9f7-a58361b39eca")
+		)
+		(pin "1"
+			(uuid "e67e4309-f72c-4e0f-987d-9d65612b8f53")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 96.52 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e45e6cd-ff37-44ca-91cb-4d03a7555010")
+		(property "Reference" "D61"
+			(at 96.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 96.52 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "869377b9-c240-4a61-bd90-2fe94d2276b3")
+		)
+		(pin "1"
+			(uuid "de9d38aa-e7b5-4e23-836a-0eaf0eaddc44")
+		)
+		(pin "2"
+			(uuid "ec9c1f6b-1f3b-4812-8c9e-9a761d6ab4b6")
+		)
+		(pin "3"
+			(uuid "b0f525e1-817f-4215-8d7a-4e1882d0def3")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 261.62 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1b218cb-c68a-4bad-a840-f8880a4989ab")
+		(property "Reference" "D94"
+			(at 261.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 261.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 261.62 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 261.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "211e2bb1-9015-4e00-a79f-1e6c848f6dee")
+		)
+		(pin "1"
+			(uuid "625e24cb-c693-4095-8c70-30708ea107cb")
+		)
+		(pin "2"
+			(uuid "aa43154f-adb7-44e6-9a27-e8e38b107bf5")
+		)
+		(pin "3"
+			(uuid "2ab78d4c-9dd5-4a03-bb86-59aa60ec7f5e")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 161.29 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac1d52f3-c56a-4fc9-95fa-41008e8b004a")
+		(property "Reference" "D73"
+			(at 161.29 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 161.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6690815d-fc00-48f6-8c53-f8c26d8e4376")
+		)
+		(pin "3"
+			(uuid "4a616fb0-f1f2-4414-9b96-9579cf194c0f")
+		)
+		(pin "2"
+			(uuid "6f8a1758-da50-4733-b544-5ff15e5319d5")
+		)
+		(pin "4"
+			(uuid "a85ef75a-0d04-4e43-99d4-05328ff8af67")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 220.98 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aee54be1-44bd-4702-8a1d-15b3148c1aee")
+		(property "Reference" "D85"
+			(at 220.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 220.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 220.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 220.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e86c3b31-7039-4dc1-9576-8f56a425a20d")
+		)
+		(pin "3"
+			(uuid "4a6a9618-6717-4e02-a786-dbd99a67abbf")
+		)
+		(pin "2"
+			(uuid "6c7ef5c8-033c-4ef8-81b1-0537b755023f")
+		)
+		(pin "1"
+			(uuid "f93d5a8d-01cd-4957-be3b-25bd22e00e74")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 123.19 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af50b38b-e1ce-4d97-bbea-68df515576ae")
+		(property "Reference" "D66"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 123.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 123.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "80ed3fde-2c3d-4bdb-8df8-9f64873110f8")
+		)
+		(pin "2"
+			(uuid "2e013fb1-277e-44f7-bcd8-5ab596a062c3")
+		)
+		(pin "4"
+			(uuid "643855af-8479-4a72-a190-7f40704df21e")
+		)
+		(pin "1"
+			(uuid "564659b3-2b5f-4ac5-977b-73564875b4fa")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 161.29 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0f3523e-9f70-4e15-ba40-4f0f98445094")
+		(property "Reference" "D75"
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5639c963-6764-40e4-89df-3e7c0e6d21c9")
+		)
+		(pin "3"
+			(uuid "39b00860-7b60-4042-a73d-7a8c9b040134")
+		)
+		(pin "2"
+			(uuid "7e3652c2-972d-45b4-bf46-22f125becf25")
+		)
+		(pin "4"
+			(uuid "825b4d7a-9f3f-446c-a01c-f07990e176ca")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 142.24 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b38c1fa6-1475-479d-a611-445d87e0c5e1")
+		(property "Reference" "D70"
+			(at 142.24 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 142.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 142.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0d4c8763-85ac-4371-9c60-1a626a9926ef")
+		)
+		(pin "3"
+			(uuid "fec90a2a-cdbb-4ee1-8c79-9932ae991da6")
+		)
+		(pin "2"
+			(uuid "a432d874-8f0e-437e-90a7-1ff549bf1699")
+		)
+		(pin "1"
+			(uuid "e87dfc33-7b37-4665-8ec9-6e45a61d8976")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 38.1 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4418488-1458-4420-9c47-e2a35a84a4a7")
+		(property "Reference" "D52"
+			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "499cfb9e-6f6f-477e-9dd0-8173b460c847")
+		)
+		(pin "2"
+			(uuid "47223fb7-0b0b-48e6-8148-f144a7a60162")
+		)
+		(pin "4"
+			(uuid "b11a4446-7308-425b-a5a9-e64085cc5bbf")
+		)
+		(pin "1"
+			(uuid "9eb04dcd-0c49-4595-a524-bac60e8aabca")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 241.3 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bea108b8-9283-4393-9bf3-c7599c0f5b94")
+		(property "Reference" "D91"
+			(at 241.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 241.3 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 241.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6fc4dc5-1a91-4754-bb01-f2dec1a28dfb")
+		)
+		(pin "3"
+			(uuid "71ba911f-9ae8-4af9-a214-76a11f5703d6")
+		)
+		(pin "2"
+			(uuid "c0f0825c-3c7b-4050-be52-67f01c6c72b3")
+		)
+		(pin "4"
+			(uuid "8c84daf5-c8f8-4184-8e8f-e4ff8236ce6b")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 123.19 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0815b1a-f0e3-48e8-9ab2-41aeec5e2189")
+		(property "Reference" "D67"
+			(at 123.19 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 123.19 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "521736e5-4106-44b0-aa19-ca9aa5919ada")
+		)
+		(pin "2"
+			(uuid "8d5f934e-8989-41a8-8a58-eab847dcb03d")
+		)
+		(pin "4"
+			(uuid "f51cd054-c845-4338-a620-a084ac35f446")
+		)
+		(pin "1"
+			(uuid "786eca85-0b94-4b40-96f9-dc4507a8fa59")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 201.93 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc4d8f39-9a5a-44fe-8104-481141e8e67a")
+		(property "Reference" "D81"
+			(at 201.93 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 201.93 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 201.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 201.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "29ce5896-1e15-4393-83dd-d3bd14742724")
+		)
+		(pin "2"
+			(uuid "b6cd6d73-f7a3-4dd8-9a64-7062df938757")
+		)
+		(pin "4"
+			(uuid "cf4c469a-8ff3-421c-b6fa-5763b508c96b")
+		)
+		(pin "1"
+			(uuid "64f97cd1-6fbc-42ce-863a-29385ea8a39d")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 38.1 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e65f38a0-6f04-45da-8fa8-f6947080a5ef")
+		(property "Reference" "D49"
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 38.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "af0dfc37-d1e8-44a2-8e7d-0c192ac92b23")
+		)
+		(pin "2"
+			(uuid "51ea6979-88e1-4ec4-9a5b-f30602ac2b1f")
+		)
+		(pin "4"
+			(uuid "af91a6bc-c232-4b24-adb2-00ba579a419d")
+		)
+		(pin "1"
+			(uuid "3ecfdfd2-02f9-413c-92a9-18b6eae72694")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 201.93 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6c6380e-1b6d-483b-b188-c380cc012fe8")
+		(property "Reference" "D83"
+			(at 201.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 201.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 201.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c222f910-0b35-491d-86c0-30f5927b99d3")
+		)
+		(pin "2"
+			(uuid "4bd995da-f7fa-4734-ad04-8b9adc8e1e47")
+		)
+		(pin "4"
+			(uuid "363bfed3-68da-4ee5-a8eb-c420fecc459d")
+		)
+		(pin "1"
+			(uuid "b5ff436f-4a78-4783-820e-cf3d89d7d583")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 76.2 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7f8e217-5d27-460b-b710-30ced9f853b8")
+		(property "Reference" "D60"
+			(at 76.2 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 76.2 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 76.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a71144c-1a87-4666-9a3c-1b5fca0094b4")
+		)
+		(pin "3"
+			(uuid "b9908886-fd97-4483-87db-7182aff56d4e")
+		)
+		(pin "2"
+			(uuid "8166b48b-497c-4c7a-a8a4-35bbea935678")
+		)
+		(pin "4"
+			(uuid "ec335006-6fb8-48ab-9ffb-729e83e14ffa")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 76.2 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f347afd0-4128-4be5-b121-e3ea1f140a80")
+		(property "Reference" "D57"
+			(at 76.2 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 76.2 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 76.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 76.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad497b40-9c0d-4604-9b00-c28190ca834f")
+		)
+		(pin "3"
+			(uuid "4502af62-8206-4fcf-a83e-c37ff7db66cb")
+		)
+		(pin "2"
+			(uuid "3da7513f-6b8f-4fea-9efd-a3f7019c27ae")
+		)
+		(pin "4"
+			(uuid "93597cc8-eb4b-478a-b36f-620b9ed70a32")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 57.15 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa28e285-b524-4edf-9e27-6fdc17c2cab8")
+		(property "Reference" "D53"
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 57.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 57.15 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0bf4bab6-9d97-41c2-bb9d-a92ce6f453c2")
+		)
+		(pin "3"
+			(uuid "86dc339a-dae0-467f-9b60-9cb6d66ccd57")
+		)
+		(pin "2"
+			(uuid "b3117c6a-954b-489e-ab57-e8b7871a8185")
+		)
+		(pin "1"
+			(uuid "d97fd374-7237-4605-ae28-912b3ccfdc76")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 181.61 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faa589c9-96d4-4749-8f5d-d5229ff38a3e")
+		(property "Reference" "D78"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 181.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 181.61 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 181.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5100f772-fc60-4f9e-a158-4e9f96b9045c")
+		)
+		(pin "1"
+			(uuid "f8c9b432-5eed-41a5-9851-cb39a9435d85")
+		)
+		(pin "2"
+			(uuid "29ef9acf-a1d8-4743-891d-8d633b1279af")
+		)
+		(pin "3"
+			(uuid "c21c1958-7274-49d2-9173-0bec786b0b13")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 201.93 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc91d3fe-59f0-43c3-b18b-1c9ded13e0c6")
+		(property "Reference" "D82"
+			(at 201.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 201.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW"
+			(at 201.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 201.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ffeac9bc-78fc-4cee-b7a4-a8ec456b4a16")
+		)
+		(pin "2"
+			(uuid "24e85c04-0745-4f6a-87b1-e6ef1cf30f4a")
+		)
+		(pin "4"
+			(uuid "15ba4360-58dd-43b3-8554-792057d94906")
+		)
+		(pin "1"
+			(uuid "fce7d299-0d43-4827-b6c6-25a0a57edabd")
+		)
+		(instances
+			(project "TWSU-Arcade-Coder-HW"
+				(path "/fc2f11b7-e733-43f3-8a94-a0c22b55cc6d/e6912cf5-52be-4db7-8d7a-7570c32f549f"
+					(reference "D82")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
